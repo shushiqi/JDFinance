@@ -1,18 +1,24 @@
 <template lang="html">
-    <div :class="$style.home">
-        <h1>Home</h1>
+    <div>
+      <iHeader></iHeader>
+      <Slider></Slider>
+      <Novice></Novice>
     </div>
 </template>
 
 <script>
+import iHeader from "../public/header";
+import Slider from './homeSlider'
+import Novice from './novice'
 export default {
-}
+  components: {
+    iHeader,
+    Slider,
+    Novice
+  }
+};
 </script>
 
 <style lang="scss" module>
-  @import '../../css/reset.scss';
-  .home{
-    color: red;
-    font-size: 80px;
-  }
+
 </style>
