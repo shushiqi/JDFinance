@@ -14,13 +14,13 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="{name:'home'}">
+        <router-link :to="{name:'borrow'}">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t1/5291/40/14133/594/5bda5ca3E92d0e800/09ac81fa5a5c96ef.png" alt="">
           <p>借钱</p>
         </router-link>
       </li>
       <li>
-        <router-link :to="{name:'home'}">
+        <router-link :to="{name:'raise'}">
           <img src="//img12.360buyimg.com/jrpmobile/jfs/t1/3358/38/14064/816/5bda5cabEcb7eca8b/9bb064f1cda7ceba.png" alt="">
           <p>省钱</p>
         </router-link>
